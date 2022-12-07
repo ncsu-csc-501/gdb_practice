@@ -29,7 +29,7 @@
         $(LD) -m32 -dn -Ttext 0x10000 -e start ${XOBJ} ${OBJ} ${LIB}/libxc.a \
     ```
 
-- Step 4: Running and debugging XINU
+- Step 2: Running and debugging XINU
 
     The XINU image runs on the QEMU emulator machines. To boot up the image, type:
     ```shell
