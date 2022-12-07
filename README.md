@@ -5,7 +5,7 @@
     To compile the XINU kernel, run `make` in the `compile` directory as follows:
 
     ```shell
-    cd gdb_practice/compile
+    cd compile
     make depend
     make
     ```
